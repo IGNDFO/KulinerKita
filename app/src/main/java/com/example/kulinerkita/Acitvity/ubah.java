@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import com.example.kulinerkita.R;
+
 public class ubah extends AppCompatActivity {
 
     @Override

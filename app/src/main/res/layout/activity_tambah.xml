@@ -42,7 +42,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/et_deskripsi"
+        android:id="@+id/et_deskripsi_singkat"
         android:layout_marginTop="6px"
         android:hint="Masukan Deskripsi Makanan"
         android:layout_below="@id/et_asal"
@@ -52,7 +52,7 @@
         android:layout_height="wrap_content"
         android:text="Simpan"
         android:id="@+id/btn_tambah"
-        android:layout_below="@id/et_deskripsi"
+        android:layout_below="@id/et_deskripsi_singkat"
         android:layout_centerInParent="true"/>
 
 </RelativeLayout>

@@ -35,7 +35,7 @@
             android:textSize="21sp" />
 
         <TextView
-            android:id="@+id/tv_deskripsi"
+            android:id="@+id/tv_deskripsi_singkat"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Deskripsi"

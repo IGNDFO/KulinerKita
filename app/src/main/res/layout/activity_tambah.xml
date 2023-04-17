@@ -26,7 +26,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/tv_tambah"
-        android:hint="Masukan nama kuliner"
+        android:hint="Masukan Nama Kuliner"
         android:textSize="21sp"
         android:id="@+id/et_nama"
         android:layout_marginTop="3px"/>
@@ -36,7 +36,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/et_asal"
         android:layout_marginTop="3px"
-        android:hint="Masukan daerah asal makanan"
+        android:hint="Masukan Daerah Asal Makanan"
         android:layout_below="@id/et_nama"
         android:textSize="21sp"/>
     <EditText
@@ -44,7 +44,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/et_deskripsi"
         android:layout_marginTop="6px"
-        android:hint="Masukan Deskripsi makanan"
+        android:hint="Masukan Deskripsi Makanan"
         android:layout_below="@id/et_asal"
         android:textSize="21sp"/>
     <Button

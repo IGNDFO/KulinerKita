@@ -44,7 +44,7 @@ ModelKuliner mk=listkuliner.get(position);
 
     @Override
     public int getItemCount() {
-        return 0;
+        return listkuliner.size();
     }
     public class VHkuliner extends RecyclerView.ViewHolder{
         TextView tvid,tvnama,tvasal,tvdeskripsisingkat;

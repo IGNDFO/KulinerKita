@@ -12,10 +12,10 @@
         android:theme="@style/Theme.KulinerKita"
         tools:targetApi="31">
         <activity
-            android:name=".ubah"
+            android:name=".Acitvity.ubah"
             android:exported="false" />
         <activity
-            android:name=".tambah"
+            android:name=".Acitvity.tambah"
             android:exported="false" />
         <activity
             android:name=".Acitvity.MainActivity"

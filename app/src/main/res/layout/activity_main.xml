@@ -6,7 +6,7 @@
     tools:context=".Acitvity.MainActivity">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rv_makanan"
+        android:id="@+id/rv_kuliner"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:listitem="@layout/item_list"
@@ -20,5 +20,13 @@
         android:layout_margin="32dp"
         android:src="@drawable/ic_tambah"
         app:tint="@null"/>
+
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pb_kuliner"
+        android:visibility="gone"
+        android:layout_centerInParent="true"/>
 
 </RelativeLayout>

@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ProgressBar;
@@ -43,9 +44,21 @@ private List<ModelKuliner> listkuliner=new ArrayList<>();
         fabtambah = findViewById(R.id.fab_tambah);
         pbkuliner = findViewById(R.id.pb_kuliner);
 
+
         lm_kulnier = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
         rvkuliner.setLayoutManager(lm_kulnier);
+
+        fabtambah.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this,tambah.class));
+            }
+        });
     }
+
+
+
+
     protected void  onResume(){
         super.onResume();
         retrievekuliner();
@@ -67,7 +80,6 @@ private List<ModelKuliner> listkuliner=new ArrayList<>();
                     rvkuliner.setAdapter(ad_kuliner);
                     ad_kuliner.notifyDataSetChanged();
                     pbkuliner.setVisibility(View.GONE);
-
 
                 }
 

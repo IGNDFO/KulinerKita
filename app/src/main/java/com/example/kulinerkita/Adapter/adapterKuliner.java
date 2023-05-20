@@ -33,7 +33,7 @@ private List<ModelKuliner> listkuliner;
 
     @Override
     public void onBindViewHolder(@NonNull adapterKuliner.VHkuliner holder, int position) {
-ModelKuliner mk=listkuliner.get(position);
+        ModelKuliner mk=listkuliner.get(position);
         holder.tvid.setText(mk.getId());
         holder.tvnama.setText(mk.getNama());
         holder.tvasal.setText(mk.getAsal());

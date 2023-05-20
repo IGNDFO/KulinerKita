@@ -5,12 +5,13 @@
     android:layout_height="match_parent"
     tools:context=".Acitvity.MainActivity">
 
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_kuliner"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:listitem="@layout/item_list"
-        />
+        tools:listitem="@layout/item_list" />
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab_tambah"
         android:layout_width="wrap_content"
